@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+#app-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.column-containers {
+  /*display: inline-block;*/
+  font-size: 0
+}
+
+.mfah {
+  background-color: #2f2f2f;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  height: 80px;
+  width: 25%;
+}
+
+.logo img {
+  width: 60%;
+  height: 80px;
+}
+
+.label {
+  display: inline-block;
+  vertical-align: top;
+  height: 80px;
+  width: 85%;
+  margin-left: -110px;
+}
+
+.label img {
+  height: 80px;
+  width: 60%;
+}
+
+.sections {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  width: 100%;
+  background-color: #2f2f2f;
+  padding-top: 10px;
+
+}
+
+.sections a{
+  width: 10%;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 16px;
+}
+
+.nav {
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.nav a {
+  font-size: medium;
+  background-color: #FCF9E3;
+  text-decoration: none;
+  padding: 6px 4px;
+
+}
+
+.MFAH {
+  background-color: #D9EDF7;
+  padding: 6px 4px;
+}
+
+.top {
+  /*display: inline-block;
+  vertical-align: top;*/
+}
+
+.top-text {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+
+.top-events {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-left: 18px;
+}
+
+.artspeak img {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.artspeak p {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-top: -2px;
+}
+
+.title {
+  color: #3E7FBB;
+  font-weight: bold;
+}
+
+.photo img{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.photo p {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-top: -2px;
+}
+
+.artbite img {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.artbite p {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-top: -2px;
+}
+
+.future {
+  font-size: medium;
+  width: 70%;
+}
+
+.future-text {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-top: -20px;
+}
+
+.future-text a {
+  text-decoration: none;
+  color: #3E7FBB;
+  font-weight: bold;
+}
+
+.future-image {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-left: 40px;
+}
+
+.glassell {
+  font-size: medium;
+  width: 70%;
+}
+
+.glassell-image {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.glassell-text {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 150px;
+  margin-top: -20px;
+}
+
+.bottom {
+  font-size: small;
+  width: 100%;
+}
+
+.bottom-text1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.bottom-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  /*padding-right: 10px;*/
+}
+
+.bottom-text2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.something-special {
+  height:15%;
+  width: 25%;
+  font-size: medium;
+  background-color: #3A539B;
+  color: #fff;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+.envelope i{
+  display: inline-block;
+  vertical-align: top;
+  width:10%;
+  margin-top: 18px;
+  margin-left: 8px;
+  color: #DB4B38;
+}
+
+.envelope p {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 25;
+  margin-left: -12px;
+}
+
+.ticket i{
+  display: inline-block;
+  vertical-align: top;
+  width:10%;
+  margin-top: 18px;
+  margin-left: 8px;
+  color: #DB4B38;
+}
+
+.ticket p {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 25;
+  margin-left: -12px;
+}
+
+.ticket {
+  margin-top: -24px;
+}
+
+.search {
+  margin-top: -12px;
+  padding-bottom: 10px;
+}
+
+.search input {
+  width: 85%;
+  margin-left: 8px;
+  height: 30px;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.search button {
+  margin-left: -10px;
+  height: 30px;
+}
